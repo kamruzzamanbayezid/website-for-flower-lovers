@@ -3,17 +3,25 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
 }
+
+/* .section-width{
+    width: 70%;
+    margin: auto;
+} */
 
 /* CSS STYLES FOR HEADER */
 .website-intro {
     background-color: rgba(229, 84, 115, 0.10);
-    height: 100vh;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 97px;
+    padding: 0 170px;
 }
 
 .header-photo img {
@@ -23,8 +31,55 @@ body{
 
 .flower-headings {
     color: #272727;
-    font-size: 80px;
+    font-size: 55px;
     font-family: Lato;
     font-weight: 800;
-    word-wrap: break-word
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.header-photo img {
+    height: 550px;
+    width: 450px;
+    margin-top: 50px;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #E55473;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+/* HEADER STYLE END */
+
+/* STYLE FOR BODY PART */
+
+/* STYLE FOR FLOWER SECTION 1 */
+.flower-section-1 {}
+
+flower-section-1-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.flower-section-1-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.flower-section-1-content{
+    text-align: center;
 }
