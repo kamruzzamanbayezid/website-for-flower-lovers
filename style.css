@@ -1,0 +1,30 @@
+/* COMMON CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* CSS STYLES FOR HEADER */
+.website-intro {
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-photo img {
+    height: 300px;
+    width: 300px;
+}
+
+.flower-headings {
+    color: #272727;
+    font-size: 80px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word
+}
