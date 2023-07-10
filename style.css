@@ -183,6 +183,7 @@ flower-section-1-title {
 
 /* SECTION 4 END */
 
+/* SECTION 5 START */
 .flower-section-5 {
     width: 70%;
     margin: auto;
@@ -221,6 +222,38 @@ flower-section-1-title {
     font-size: 16px;
     font-weight: 400;
 }
-.flower-section-5 .section-5-container button{
+
+.flower-section-5 .section-5-container button {
     margin-left: 15px;
+}
+
+/* SECTION 5 END */
+
+
+/* FOOTER CSS */
+.flower-footer {
+    background-color: #111010;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
