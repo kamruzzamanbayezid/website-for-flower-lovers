@@ -146,11 +146,14 @@ flower-section-1-title {
 
 /* STYLE FOR FLOWER SECTION 4 */
 
+.flower-section-4{
+    text-align: center;
+    margin-bottom: 100px;
+}
 .section-4-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -158,19 +161,19 @@ flower-section-1-title {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
     margin-bottom: 30px;
 }
-
-.section-4-images{
+.section-4-img-items{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     gap: 20px;
 }
-.section-4-img{
-    position: relative;
-}
+
 .section-4-img-cell{
+    width: 250px;
     height: 300px;
-    width: 280px;
+}
+.section-4-img-items{
+    width: 70%;
+    margin: auto;
 }
