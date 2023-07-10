@@ -8,10 +8,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* .section-width{
-    width: 70%;
-    margin: auto;
-} */
+span {
+    color: red;
+}
 
 /* CSS STYLES FOR HEADER */
 .website-intro {
@@ -67,7 +66,7 @@ body {
 /* STYLE FOR BODY PART */
 
 /* STYLE FOR FLOWER SECTION 1 */
-.flower-section-1 {}
+/* .flower-section-1 {}
 
 flower-section-1-title {
     color: #272727;
@@ -82,4 +81,96 @@ flower-section-1-title {
 }
 .flower-section-1-content{
     text-align: center;
+} */
+
+/* STYLE FOR FLOWER SECTION 2 */
+
+.flower-section-2 {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+}
+
+.section-2-img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.section-2-para {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* SECTION 2 END */
+
+/* STYLE FOR FLOWER SECTION 3 */
+
+.flower-section-3 {
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    display: flex;
+    gap: 182px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 80px 280px;
+    margin-bottom: 100px;
+}
+
+.section-3-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-3-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* SECTION 3 END */
+
+/* STYLE FOR FLOWER SECTION 4 */
+
+.section-4-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-4-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-4-images{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-4-img{
+    position: relative;
+}
+.section-4-img-cell{
+    height: 300px;
+    width: 280px;
 }
