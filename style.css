@@ -67,12 +67,13 @@ span {
 /* STYLE FOR BODY PART */
 
 /* STYLE FOR FLOWER SECTION 1 */
-.flower-section-1{
+.flower-section-1 {
     text-align: center;
     margin-top: 100px;
     width: 75%;
     margin: auto;
 }
+
 .section-1-title {
     color: #272727;
     font-size: 40px;
@@ -86,36 +87,39 @@ span {
     line-height: 30px;
     margin-bottom: 45px;
 }
-.section-1-img-items1{
+
+.section-1-img-items1 {
     background: rgba(167, 33, 98, 0.15);
-    border-top-left-radius: 300px; 
+    border-top-left-radius: 300px;
     border-top-right-radius: 300px;
     width: 350px;
     height: 400px;
     position: relative;
 }
 
-.section-1-images{
+.section-1-images {
     display: flex;
     justify-content: space-around;
     gap: 15px;
 }
 
-.section-1-img-box{
+.section-1-img-box {
     width: 200px;
     height: 300px;
     position: absolute;
     bottom: 0;
     left: 20%;
 }
-.section-1-img-box1{
+
+.section-1-img-box1 {
     width: 200px;
     height: 300px;
     position: absolute;
     bottom: 20px;
     left: 20%;
 }
-.section-1-img-box2{
+
+.section-1-img-box2 {
     width: 200px;
     height: 300px;
     position: absolute;
@@ -123,7 +127,7 @@ span {
     left: 20%;
 }
 
-.section-1-img-items2{
+.section-1-img-items2 {
     background: rgba(5, 150.70, 160, 0.15);
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
@@ -131,13 +135,44 @@ span {
     height: 400px;
     position: relative;
 }
-.section-1-img-items3{
+
+.section-1-img-items3 {
     background: rgba(71, 125, 17, 0.15);
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
     width: 350px;
     height: 400px;
-    position: relative;    
+    position: relative;
+}
+
+.section {
+    position: absolute;
+    left: 25%;
+    bottom: -10%;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section1 {
+    position: absolute;
+    left: 25%;
+    bottom: -10%;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section2 {
+    position: absolute;
+    left: 25%;
+    bottom: -10%;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 
@@ -153,8 +188,8 @@ span {
     width: 60%;
     height: 20px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     padding: 100px;
 }
 
@@ -243,6 +278,7 @@ span {
 /* SECTION 4 END */
 
 /* SECTION 5 START */
+
 .flower-section-5 {
     width: 71.5%;
     margin: auto;
