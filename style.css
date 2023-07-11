@@ -15,7 +15,7 @@ span {
 /* CSS STYLES FOR HEADER */
 
 /* CSS STYLE FOR NAVIGATION TAG */
-.flower-menu{
+.flower-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,26 +25,30 @@ span {
     left: 0;
     width: 100%;
 }
-.flower-menu ul{
+
+.flower-menu>ul {
     display: flex;
     justify-content: space-between;
 }
 
-.flower-menu ul li{
+.flower-menu ul li {
     list-style: none;
 }
+
 .flower-menu a {
     text-decoration: none;
     font-weight: bold;
     padding: 25px 25px;
     display: block;
 }
-.flower-menu li:hover a{
+
+.flower-menu li:hover a {
     background-color: rgb(165, 150, 131);
     color: white;
     border-radius: 8px;
     font-weight: bolder;
 }
+
 
 /* CSS STYLE FOR BANNER PART */
 .website-intro {
@@ -96,7 +100,8 @@ span {
     border-radius: 8px;
     border: none;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
     background-color: azure;
     color: black;
@@ -277,6 +282,54 @@ span {
 
 /* SECTION 3 END */
 
+/* CSS FOR BONUS SECTION START */
+/* .bonus-section {
+    background-color: blanchedalmond;
+} */
+
+.bonus-section-content {
+    display: flex;
+    justify-content: space-around;
+    gap: -50px;
+}
+
+.bonus-section-title {
+    text-align: center;
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.bonus-section-container {
+    /* background-color: rgb(238, 229, 218); */
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+}
+
+.bonus-section-img {
+    width: 220px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.bonus-section-items {
+    text-align: center;
+    background-color: White;
+    padding: 30px;
+    box-shadow: 5px 10px 15px;
+}
+
+.bonus-section-items a {
+    font-style: italic;
+}
+
+.bonus-section-h4 {
+    margin-bottom: 10px;
+}
+
+/* CSS FOR BONUS SECTION END */
+
 /* STYLE FOR FLOWER SECTION 4 */
 
 .flower-section-4 {
@@ -323,6 +376,9 @@ span {
     width: 75%;
     margin: auto;
     background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     margin-bottom: 100px;
     height: 400px;
@@ -348,7 +404,7 @@ span {
 }
 
 .section-5-input {
-    width: 300px;
+    width: 500px;
     height: 50px;
     border: none;
     padding-left: 20px;
