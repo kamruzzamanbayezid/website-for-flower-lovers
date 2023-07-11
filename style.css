@@ -70,7 +70,7 @@ span {
 .flower-section-1{
     text-align: center;
     margin-top: 100px;
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 .section-1-title {
@@ -206,7 +206,8 @@ span {
 
 .flower-section-4 {
     text-align: center;
-    margin-bottom: 100px;
+    width: 85%;
+    margin: auto;
 }
 
 .section-4-title {
@@ -226,16 +227,16 @@ span {
 .section-4-img-items {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 26px;
 }
 
 .section-4-img-cell {
-    width: 200px;
-    height: 250px;
+    width: 280px;
+    height: 320px;
 }
 
 .section-4-img-items {
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -243,7 +244,7 @@ span {
 
 /* SECTION 5 START */
 .flower-section-5 {
-    width: 70%;
+    width: 71.5%;
     margin: auto;
     background-image: url("./Flower Asset/Rectangle\ 9.png");
     text-align: center;
