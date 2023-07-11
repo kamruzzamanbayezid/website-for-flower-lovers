@@ -13,6 +13,40 @@ span {
 }
 
 /* CSS STYLES FOR HEADER */
+
+/* CSS STYLE FOR NAVIGATION TAG */
+.flower-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.flower-menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower-menu ul li{
+    list-style: none;
+}
+.flower-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 25px 25px;
+    display: block;
+}
+.flower-menu li:hover a{
+    background-color: rgb(165, 150, 131);
+    color: white;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+/* CSS STYLE FOR BANNER PART */
 .website-intro {
     background-color: rgba(229, 84, 115, 0.10);
     height: 600px;
@@ -22,6 +56,7 @@ span {
     gap: 97px;
     padding: 0 170px;
     margin-bottom: 100px;
+    margin-top: 68px;
 }
 
 .header-photo img {
