@@ -61,6 +61,11 @@ span {
     border-radius: 8px;
     border: none;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+}
 
 /* HEADER STYLE END */
 
