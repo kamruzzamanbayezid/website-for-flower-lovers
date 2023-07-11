@@ -262,12 +262,12 @@ span {
 .section-4-img-items {
     display: flex;
     justify-content: space-around;
-    gap: 26px;
+    gap: 10px;
 }
 
 .section-4-img-cell {
-    width: 280px;
-    height: 320px;
+    width: 245px;
+    height: 300px;
 }
 
 .section-4-img-items {
@@ -280,7 +280,7 @@ span {
 /* SECTION 5 START */
 
 .flower-section-5 {
-    width: 70%;
+    width: 75%;
     margin: auto;
     background-image: url("./Flower Asset/Rectangle\ 9.png");
     text-align: center;
